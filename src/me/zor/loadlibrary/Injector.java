@@ -1,14 +1,11 @@
-package me.zor;
+package me.zor.loadlibrary;
 
 import com.sun.jna.Pointer;
-import me.zor.exceptions.OpenProcessException;
-import me.zor.exceptions.ProcAddressException;
-import me.zor.exceptions.ProcessWriteException;
-import me.zor.utilities.Kernel32;
-import me.zor.utilities.Psapi;
-import sun.reflect.annotation.ExceptionProxy;
+import me.zor.loadlibrary.exceptions.OpenProcessException;
+import me.zor.loadlibrary.exceptions.ProcAddressException;
+import me.zor.loadlibrary.exceptions.ProcessWriteException;
+import me.zor.loadlibrary.utilities.Kernel32;
 
-import java.security.KeyRep;
 import java.util.Scanner;
 
 public class Injector {

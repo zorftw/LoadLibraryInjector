@@ -1,4 +1,4 @@
-package me.zor.exceptions;
+package me.zor.loadlibrary.exceptions;
 
 public class ProcAddressException extends Exception {
 

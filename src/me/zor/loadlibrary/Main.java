@@ -1,4 +1,4 @@
-package me.zor;
+package me.zor.loadlibrary;
 
 public class Main {
 

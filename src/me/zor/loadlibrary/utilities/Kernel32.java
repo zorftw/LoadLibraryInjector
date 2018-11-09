@@ -1,11 +1,9 @@
-package me.zor.utilities;
+package me.zor.loadlibrary.utilities;
 
 import com.sun.jna.Native;
 import com.sun.jna.Pointer;
 import com.sun.jna.ptr.IntByReference;
 import com.sun.jna.win32.StdCallLibrary;
-
-import java.awt.*;
 
 /* wrapper for kernel */
 public interface Kernel32 extends StdCallLibrary {

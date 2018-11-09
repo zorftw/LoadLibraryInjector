@@ -1,4 +1,4 @@
-package me.zor.utilities;
+package me.zor.loadlibrary.utilities;
 
 import com.sun.jna.Native;
 import com.sun.jna.win32.StdCallLibrary;

@@ -1,6 +1,4 @@
-package me.zor.exceptions;
-
-import sun.reflect.annotation.ExceptionProxy;
+package me.zor.loadlibrary.exceptions;
 
 public class OpenProcessException extends Exception {
     public OpenProcessException(int pid) {
